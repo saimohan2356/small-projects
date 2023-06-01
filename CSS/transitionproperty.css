@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.easein{
+    width: 20rem;
+    height: 20rem;
+    background-color: blanchedalmond;
+}
+.easein:hover{
+    transition: 5s;
+    transition-timing-function: ease-in;
+    transform:translateX(40rem);
+}
+.easeout{
+    width: 20rem;
+    height: 20rem;
+    background-color: darkblue;
+}
+.easeout:hover{
+    transition: 5s;
+    transition-timing-function: ease-out;
+    transform:translateX(40rem);
+}
+.easeinout{
+    width: 20rem;
+    height: 20rem;
+    background-color: chartreuse;
+}
+.easeinout:hover

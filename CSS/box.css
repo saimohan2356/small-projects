@@ -1,0 +1,85 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 5s;
+    gap: 30px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: move3 1s infinite;
+    gap: 30px;
+}
+div{
+    height: 300px;
+    width: 30px;
+    border: 1px solid brown;
+    background-color: orange;
+    transition: 5s;
+    background-color: blue
+}
+div:nth-child(odd){
+    animation:move2 4s infinite;
+    transition: 4s;
+    background-color: brown;
+}
+div:nth-child(even){
+    animation: move1 4s infinite;
+    transition: 4s;
+}
+
+@keyframes move1{
+    
+    0%{
+        transform: translateY(6rem);
+        background-color: aquamarine;
+    }
+    
+    50%{
+        transform: translateY(-6rem);
+        background-color: black;
+    } 
+    100%{
+        transform:translateY(6rem);
+        background-color: green;
+    }  
+}
+
+@keyframes move2{
+    0%{
+        transform: translateY (-6rem);
+        background-color: red;
+    }
+    
+    50%{
+        transform: translateY(6rem);
+        background-color: yellowgreen;
+    }
+    100%{
+        transform: translateY(-6rem);
+        background-color: khaki;
+    }
+}
+
+@keyframes move3{
+    0%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(-90deg);
+    }
+    100%{
+        transform: rotate(90deg);
+    }
+}

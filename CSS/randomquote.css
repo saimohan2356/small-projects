@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#quote{
+    width: 45rem;
+    height: 25rem;
+    border: 1px solid;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+        
+}
+#btn{
+    width: 5rem;
+    height: 3rem;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: lime;
+}

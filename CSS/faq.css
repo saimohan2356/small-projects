@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: green; 
+}
+.div1{
+    border-radius: 5px;
+    color:brown;
+    background-color:orange;
+    width: 40rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 2rem;
+    font-family:cursive;
+
+}
+.div1 p{
+    display: none;
+}
+.div1.open p
+{
+    display: block;
+}
+p{
+    font-size: 2rem;
+    text-align: center;
+}

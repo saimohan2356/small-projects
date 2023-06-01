@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    border-bottom:10px dotted;
+    animation: key 1s infinite;
+}
+@keyframes key{
+    0%{
+        transform:rotate(0deg);
+        transition: 1s;
+        color: black;
+    
+    }
+    100%{
+        transform:rotate(360deg);
+        transition: 1s;
+        color: limegreen;
+    
+    }
+}
